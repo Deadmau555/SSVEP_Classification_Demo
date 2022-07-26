@@ -9,7 +9,7 @@ We designed three python demos for SSVEP Classifier
 
 
 
-# Dataset
+## Dataset
 Dataset Reference: 12-Class publicly available SSVEP EEG Dataset Dataset.
 
 The following is implemented on a 12-Class publicly available SSVEP EEG Dataset
@@ -17,7 +17,7 @@ The following is implemented on a 12-Class publicly available SSVEP EEG Dataset
 
 Dataset Download URL: https://github.com/mnakanishi/12JFPM_SSVEP/tree/master/data
 
-## File format
+### File format
 Each .mat file has a four-way tensor electroencephalogram (EEG) data for each subject.
 Please see the reference paper for the detail.
 
@@ -35,7 +35,7 @@ The order of the stimulus frequencies in the EEG data:
 
 The onset of visual stimulation is at 39th sample point, which means there are redundant data for 0.15 [s] before stimulus onset.
 
-# Result
+## Result
 We tested the above three methods from EEG data of ten people.
 
 |  | S1 | S2 | S3 | S4 | S5 | S6 | S7 | S8 | S9 | S10 | Overall 
@@ -44,7 +44,7 @@ We tested the above three methods from EEG data of ten people.
 |C-CNN | 77.77% | 56.80% | 94.99% | 98.19% | 99.72% | 99.72% | 94.16% | 99.16% | 97.36% | 89.86% | 90.77% |
 |VAE-CNN | 99.86% | 99.44% | 99.86% | 99.72% | 100% | 97.91% | 100% | 100% | 99.30% | 99.72% | 99.58%|
 
-# Reference
+## Reference
 https://github.com/nikk-nikaznan/SSVEP-Neural-Generative-Models
 
 https://github.com/aaravindravi/Brain-computer-interfaces
