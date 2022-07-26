@@ -46,4 +46,5 @@ We tested the above three methods from EEG data of ten people.
 
 # Reference
 https://github.com/nikk-nikaznan/SSVEP-Neural-Generative-Models
+
 https://github.com/aaravindravi/Brain-computer-interfaces
